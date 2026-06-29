@@ -1,0 +1,12 @@
+.overflow-auto {
+  scroll-behavior: smooth;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  height: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
