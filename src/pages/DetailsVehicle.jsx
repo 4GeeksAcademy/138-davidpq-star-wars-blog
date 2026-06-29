@@ -15,7 +15,7 @@ export default function DetailsVehicle(params) {
 
                     <div className="col-12 col-lg-6">
                         <div className="ratio ratio-4x3">
-                            <img src="https://via.placeholder.com/800x600"
+                            <img src={`https://github.com/breatheco-de/swapi-images/blob/master/public/images/vehicles/${dataVehicle.uid}.jpg?raw=true`}
                                 className="img-fluid rounded shadow"
                                 alt={`${dataVehicle.properties.name} Image`} />
                         </div>

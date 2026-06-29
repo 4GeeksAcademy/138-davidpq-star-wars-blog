@@ -5,7 +5,6 @@ import { Trash2 } from "lucide-react";
 export const Navbar = () => {
 	const { store, dispatch } = useGlobalReducer()
 	const favoritesList = store.favoritesList
-	console.log(favoritesList);
 	
 	function handleDelete(favorite) {
         dispatch({ type: 'deleteFavoritesList', payload: favorite })
